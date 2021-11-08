@@ -1,0 +1,98 @@
+body{
+    margin: 10px 0;
+    padding: 0;
+    background-color: #dea;
+}
+
+/*pr centrer le conteneur*/
+#conteneur{ 
+    width: 770px;
+    margin: 0 auto;
+    border: 2px solid #ab4;
+    background-color: #fff;
+}
+/*pr centrer le conteneur*/
+
+h1{
+    margin: 0;
+    background: url(../img/apple.png) no-repeat left top; /*pr être le plus en haut et à gauche possible*/
+    height: 250px;
+}
+
+h1 a{
+    display: block;
+    width: 400px;
+    height: 70px;
+    background: url(../img/title.png) no-repeat;
+    position: relative;
+    left: 350px;
+    top: 15px;
+    text-indent: -5000px; /*text-indent pr sortir 1 élément de la page*/
+}
+
+ul{
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg_menu.png) repeat-x 0 -25px;
+    list-style-type: none;
+}
+
+ul li{
+    float: left;
+    text-align: center;
+}
+
+ul li a{
+    display: block;
+    width: 130px;
+    line-height: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
+    border-right: 2px solid #dea; /* pr mettre 1 bordure uniquement à droite*/
+}
+
+ul li a:hover{
+    background: url(../img/bg_menu.png) repeat-x 0 0;
+}
+
+main{
+    background-image: url(../img/bg_page.png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    padding: 0 30px 0 100px;
+}
+
+main h2{
+    padding-left: 25px;
+    line-height: 25px;
+    font-size: 1.4em;
+    background: url(../img/little_apple.png) no-repeat left bottom;
+    color: #9b2;
+    border-bottom: 1px solid #9b2;
+}
+
+main h3{
+    margin-left: 15px;
+    padding-left: 5px;
+    border-bottom: 1px solid #9b2; /*pr le trait ss le titre*/
+    border-left: 3px solid #9b2; /*pr faire 1 trait à gauche d'1 element*/
+    color: #9b2;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 2em; /*pr crée l'espace au début du paragraphe*/
+    line-height: 1.7em;
+}
+
+footer{
+    margin: 0;
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: right;
+    color: #8a0;
+}

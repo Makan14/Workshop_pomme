@@ -1,0 +1,67 @@
+body{
+    background: #dbffb3;
+    padding: 0px 560px;
+    
+}
+
+#main{
+    background: #ffffff;
+    border: 2px solid #c3ce85;
+}
+
+/*debut logo*/
+.logo{
+    display: flex;
+}
+
+.img{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/*fin logo*/
+
+/*debut menu*/
+nav{
+    background: #5ed40f;
+    
+    
+}
+
+nav a{
+    color: white;
+    font-size: 25px;
+    padding: 0 20px;
+    text-decoration: none;
+    
+}
+/*fin menu*/
+
+/*debut section*/
+section{
+    display: flex;
+    height: 660px;
+}
+
+p{
+    text-align: justify;
+}
+
+span{
+    background: yellow;
+}
+
+.bgPage{
+    padding: 10px 20px;
+}
+
+hr{
+    color: #a4bc49;
+    
+}
+
+h1, h2{
+    color: #a4bc49;
+    height: 3px;
+}
+/*fin section*/
+
